@@ -19,36 +19,36 @@ nav{
   align-items: center;
   /* justify-content: space-evenly; */
 }
-ul {
+.nul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #ffffff;
 }
-li {
+.nli {
     float: left;
 }
-li a {
+.nli .na {
     display: block;
     color: rgb(0, 0, 0);
     text-align: center;
     padding: 16px;
     text-decoration: none;
 }
-li a:hover {
+.nli .na:hover {
     background-color: #2221215c;
 }
 .rightnav{
    padding-left: 400px; 
 } 
-.rightnav a{
+.rightnav .na{
     color: rgb(0, 0, 0);
     text-align: center;
     padding: 16px;
     text-decoration: none;
 }
-.rightnav a:hover{
+.rightnav .na:hover{
   background-color: #2221215c;
 }
  .atr, .atd{
@@ -76,4 +76,7 @@ li a:hover {
 .tra:hover{
   background-color: #2221215c;
   cursor: pointer;
+}
+.atd:hover{
+  background-color: #2221215c;
 }
