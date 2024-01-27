@@ -51,5 +51,29 @@ li a:hover {
 .rightnav a:hover{
   background-color: #2221215c;
 }
+ .atr, .atd{
+  /* border: 1px solid #eee; */
+  padding: 0.5rem;
+}
+.smccAbout{
+  padding: 0.5rem;
+}
+.sp{
+  height: 50px;
+  padding-right: 30px;
+}
+ .ctd{
+  display: flex;
+  align-items: center;
+  
+}
+.tc{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-
+.tra:hover{
+  background-color: #2221215c;
+  cursor: pointer;
+}
